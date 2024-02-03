@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="stopwatch-container">
+
+              
+        <div class="outer-circle">
+            <div id="display">00:00:00</div>
+
+        </div>
+
+        
+        <button id="startStop" onclick="startStop()">Start</button>
+        <button id="reset" onclick="reset()">Reset</button>
+        <button id="lap" onclick="recordLap()">Lap</button>
+        <ul id="laps"></ul>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>

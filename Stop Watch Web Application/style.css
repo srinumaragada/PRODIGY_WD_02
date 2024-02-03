@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .stopwatch-container {
+    
+    /* width:100px; */
+    height:230px;
+    margin-top: 100px;
+  }
+  
+  #display {
+    height: 220px;
+    width: 220px;
+    font-weight: 230px;
+    border: 2px solid white;
+    background-color: rgb(21, 18, 18);
+    border-radius: 30%;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    /* margin-bottom: 2px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-collapse:collapse;
+    line-height:200px;
+
+  }
+  
+  .outer-circle{
+    padding: 24px 12px;
+    width:240px;
+    height:240px;
+    border-radius: 30%;
+    /* border: 2px solid white; */
+    /* background-color: white; */
+    background: conic-gradient(
+        #d4f807,
+        #6bcefc,
+        #dc9af8,
+        #3edf4b,
+        #3363ff,
+        #ee6464,
+        #fe5757
+    );
+    animation:spin 1.5s infinite linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+  
+  button {
+    height: 50px;
+    width: 75px;
+    margin: 5px;
+    padding: 10px 10px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  button:hover{
+    border : 2px solid rgb(73, 66, 66);
+    background-color: white;
+    color: black;
+}
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    
+    color: white;
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
